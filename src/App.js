@@ -9,7 +9,7 @@ function App() {
 
       <div className='p-10'>
 
-        <img src={face} className='w-[100px] h-[191.78px] md:w-[190px] h-[291.78px]' alt='Muka Memet'/>
+        <img src={face} className='w-[150px] h-[171.78px] md:w-[190px] h-[291.78px]' alt='Muka Memet'/>
         <div className='text-[#B28100] text-[32px]'>
           Welcome to Matthew Mahendra's Personal Website
         </div>

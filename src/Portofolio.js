@@ -1,25 +1,31 @@
 import Project from "./Data";
 
-var Card = (props) => {
+const Card = props => {
     return(
         <div className="bg-[#E1E1E1] rounded p-5">
             <div className="text-[20px] font-semibold">
                 {props.name}
             </div>
-            <div className="text-[16px]">
-                {props.description}
+            <div className="text-[16px] space-y-5">
+                <div>{props.description}</div>
+                
+                <div className="">
+                    Release Year: {props.year} by {props.author}
+                </div>
             </div>
         </div>
     );
 }
 
-var Portofolio = () => {
+const Portofolio = () => {
     const data = Project.map(isi => {
         return(
             <Card 
             key = {isi.id}
             name = {isi.name}
             description = {isi.description}
+            year = {isi.year}
+            author = {isi.author}
             />
         )
     })
