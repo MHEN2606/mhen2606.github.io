@@ -19,6 +19,13 @@ const Project = [
         year: "2022",
         author: "Matthew Mahendra, Henry Anand S.R., Ahmad Nadil",
         description: "A group project to help understand context-free grammars and automatas in a parser. Made using Python"
+    },
+    {
+        id: 4,
+        name: "3D POINT ANALYZER",
+        year: "2023",
+        author: "Matthew Mahendra",
+        description: "TUCIL STIMA"
     }
 ]
 
